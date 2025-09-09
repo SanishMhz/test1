@@ -1,6 +1,10 @@
 name: Test CI/CD
 
 on:
+  push:
+    branches:
+    - main
+    - Sep-9
   workflow_dispatch:
 
 jobs:
